@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/shelbyandersen/react-portfolio.git/static/css/main.b4506fb1.chunk.css",
-    "main.js": "/shelbyandersen/react-portfolio.git/static/js/main.0a1ef800.chunk.js",
-    "main.js.map": "/shelbyandersen/react-portfolio.git/static/js/main.0a1ef800.chunk.js.map",
-    "runtime-main.js": "/shelbyandersen/react-portfolio.git/static/js/runtime-main.c8bbb8d7.js",
-    "runtime-main.js.map": "/shelbyandersen/react-portfolio.git/static/js/runtime-main.c8bbb8d7.js.map",
-    "static/js/2.cdbb1460.chunk.js": "/shelbyandersen/react-portfolio.git/static/js/2.cdbb1460.chunk.js",
-    "static/js/2.cdbb1460.chunk.js.map": "/shelbyandersen/react-portfolio.git/static/js/2.cdbb1460.chunk.js.map",
-    "static/js/3.7c3349dd.chunk.js": "/shelbyandersen/react-portfolio.git/static/js/3.7c3349dd.chunk.js",
-    "static/js/3.7c3349dd.chunk.js.map": "/shelbyandersen/react-portfolio.git/static/js/3.7c3349dd.chunk.js.map",
-    "index.html": "/shelbyandersen/react-portfolio.git/index.html",
-    "static/css/main.b4506fb1.chunk.css.map": "/shelbyandersen/react-portfolio.git/static/css/main.b4506fb1.chunk.css.map",
-    "static/js/2.cdbb1460.chunk.js.LICENSE.txt": "/shelbyandersen/react-portfolio.git/static/js/2.cdbb1460.chunk.js.LICENSE.txt",
-    "static/media/Home.css": "/shelbyandersen/react-portfolio.git/static/media/watercolor-background-2000.e2a28158.png"
+    "main.css": "/react-portfolio/static/css/main.10ca23c2.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.c32abad9.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.c32abad9.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.c6cb9d46.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.c6cb9d46.js.map",
+    "static/js/2.cdbb1460.chunk.js": "/react-portfolio/static/js/2.cdbb1460.chunk.js",
+    "static/js/2.cdbb1460.chunk.js.map": "/react-portfolio/static/js/2.cdbb1460.chunk.js.map",
+    "static/js/3.7c3349dd.chunk.js": "/react-portfolio/static/js/3.7c3349dd.chunk.js",
+    "static/js/3.7c3349dd.chunk.js.map": "/react-portfolio/static/js/3.7c3349dd.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.10ca23c2.chunk.css.map": "/react-portfolio/static/css/main.10ca23c2.chunk.css.map",
+    "static/js/2.cdbb1460.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.cdbb1460.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/react-portfolio/static/media/watercolor-background-2000.e2a28158.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c8bbb8d7.js",
+    "static/js/runtime-main.c6cb9d46.js",
     "static/js/2.cdbb1460.chunk.js",
-    "static/css/main.b4506fb1.chunk.css",
-    "static/js/main.0a1ef800.chunk.js"
+    "static/css/main.10ca23c2.chunk.css",
+    "static/js/main.c32abad9.chunk.js"
   ]
 }
