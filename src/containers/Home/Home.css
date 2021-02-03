@@ -1,0 +1,27 @@
+.watercolor-background {
+  background-image: url("../../images/watercolor-background-2000.png");
+  background-repeat: no-repeat;
+}
+
+.brand-text {
+  margin-top: 10%;
+}
+
+#brand-statement {
+  padding-top: 10%;
+  padding-bottom: 5%;
+  max-width: 60%;
+  margin: auto;
+  font-size: 20px;
+  text-align: center;
+}
+
+.btn {
+  font-family: "moontimeregular", Arial, sans-serif;
+  font-size: 38px;
+  background: #648586;
+  border-radius: 0;
+  width: 180px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
