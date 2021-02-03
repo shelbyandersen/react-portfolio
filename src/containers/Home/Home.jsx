@@ -29,7 +29,7 @@ const Home = () => {
         <div class="col-md-4 coding-languages">
           <h2>html</h2>
           <img
-            src="/assets/css-icon.png"
+            src="../images/css-icon.png"
             class="coding-icons"
             alt="a html5 icon"
           />
@@ -37,7 +37,7 @@ const Home = () => {
         <div class="col-md-4 coding-languages">
           <h2>css</h2>
           <img
-            src="./assets/images/css-icon.png"
+            src="src/assets/images/js-icon.png"
             class="coding-icons"
             alt="a html5 icon"
           />
@@ -45,7 +45,7 @@ const Home = () => {
         <div class="col-md-4 coding-languages">
           <h2>javascript</h2>
           <img
-            src="./assets/images/js-icon.png"
+            src="src/assets/images/js-icon.png"
             class="coding-icons"
             alt="a html5 icon"
           />
