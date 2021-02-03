@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import cssIcon from "../../images/css-icon.png";
 
 
 const Home = () => {
@@ -29,7 +30,7 @@ const Home = () => {
         <div class="col-md-4 coding-languages">
           <h2>html</h2>
           <img
-            src="../images/css-icon.png"
+            src={cssIcon}
             class="coding-icons"
             alt="a html5 icon"
           />
@@ -175,7 +176,7 @@ const Home = () => {
         <div class="col-sm-6 project-img">
           <h2>Burger Application</h2>
           <img
-            src="./assets/images/burger-app.png"
+            src="../../images/burger-app.png"
             alt="an image that shows the homepage of a burger application"
             class="portfolio-img"
           />
