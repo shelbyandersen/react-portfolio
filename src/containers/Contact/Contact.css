@@ -1,0 +1,28 @@
+.contact-me-heading {
+  margin-bottom: 10%;
+}
+
+.btn-primary {
+  background-color: #20b2aa;
+  border-color: #20b2aa;
+  border-radius: 0;
+}
+
+.btn-lg {
+  font-size: 1rem;
+}
+
+.form-group {
+  text-align: left;
+}
+
+.form-control {
+  padding: 2%;
+  border-radius: 0;
+}
+
+.social-row {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 10%;
+}
