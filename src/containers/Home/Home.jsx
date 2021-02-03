@@ -1,6 +1,19 @@
 import React from "react";
 import "./Home.css";
 import cssIcon from "../../images/css-icon.png";
+import htmlIcon from "../../images/html-icon.png";
+import jsIcon from "../../images/js-icon.png";
+import headShot from "../../images/portfolio-headshot.png";
+import curvedLine from "../../images/curved-line-icon.png";
+import freeFromAll from "../../images/free-from-all.png";
+import burgerApp from "../../images/burger-app.png";
+import weatherDashboard from "../../images/weather-dashboard.png";
+import workdayScheduler from "../../images/workday-scheduler-app.png";
+import ghIcon from "../../images/GH-icon.png";
+import liIcon from "../../images/LI-icon.png";
+import resumeIcon from "../../images/resume-icon.png";
+import chsBackground from "../../images/chs-background.png";
+import emailIcon from "../../images/email-icon.png";
 
 
 const Home = () => {
@@ -18,7 +31,7 @@ const Home = () => {
             Development Program.
           </p>
           <button type="button" class="btn btn-light">
-            <a href="../assets/sa-resume.pdf" target="blank">Resume</a>
+          <link rel="pdf" href="%PUBLIC_URL%/sa-resume.pdf" target="blank" />Resume
           </button>
         </div>
       </div>
@@ -30,7 +43,7 @@ const Home = () => {
         <div class="col-md-4 coding-languages">
           <h2>html</h2>
           <img
-            src={cssIcon}
+            src={htmlIcon}
             class="coding-icons"
             alt="a html5 icon"
           />
@@ -38,7 +51,7 @@ const Home = () => {
         <div class="col-md-4 coding-languages">
           <h2>css</h2>
           <img
-            src="src/assets/images/js-icon.png"
+            src={cssIcon}
             class="coding-icons"
             alt="a html5 icon"
           />
@@ -46,7 +59,7 @@ const Home = () => {
         <div class="col-md-4 coding-languages">
           <h2>javascript</h2>
           <img
-            src="src/assets/images/js-icon.png"
+            src={jsIcon}
             class="coding-icons"
             alt="a html5 icon"
           />
@@ -61,7 +74,7 @@ const Home = () => {
     <div class="row" id="about-section-row">
       <div class="col-sm-4 align-middle portfolio-img-col">
         <img
-          src="./assets/images/portfolio-headshot.png"
+          src={headShot}
           class="profile-picture"
           alt="a profile picture (headshot) of Shelby Andersen"
         />
@@ -88,7 +101,7 @@ const Home = () => {
     <div class="row curved-icon">
       <div class="col-sm-12">
         <img
-          src="./assets/images/curved-line-icon.png"
+          src={curvedLine}
           alt="a teal curved line, used to add design detail"
           class="curved-line-img"
         />
@@ -105,7 +118,7 @@ const Home = () => {
         <div class="col-sm-6 project-img">
           <h2>Free From All</h2>
           <img
-            src="./assets/images/free-from-all.png"
+            src={freeFromAll}
             alt="an image that shows the homepage of the Free From All App"
             class="portfolio-img"
           />
@@ -128,7 +141,7 @@ const Home = () => {
         <div class="col-sm-6 project-img">
           <h2>Weather Dashboard</h2>
           <img
-            src="./assets/images/weather-dashboard.png"
+            src={weatherDashboard}
             alt="an image that shows the homepage of a Weather App"
             class="portfolio-img"
           />
@@ -153,7 +166,7 @@ const Home = () => {
         <div class="col-sm-6 project-img">
           <h2>Work Day Scheduler</h2>
           <img
-            src="./assets/images/workday-scheduler-app.png"
+            src={workdayScheduler}
             alt="an image that shows the homepage of a work day scheduler"
             class="portfolio-img"
           />
@@ -176,7 +189,7 @@ const Home = () => {
         <div class="col-sm-6 project-img">
           <h2>Burger Application</h2>
           <img
-            src="../../images/burger-app.png"
+            src={burgerApp}
             alt="an image that shows the homepage of a burger application"
             class="portfolio-img"
           />
@@ -236,7 +249,7 @@ const Home = () => {
         <div class="col-sm-3">
           <a href="mailto:shelbyrobison14@gmail.com" target="blank">
             <img
-              src="./assets/images/email-icon.png"
+              src={emailIcon}
               alt="placeholder image"
               class="portfolio-img"
           /></a>
@@ -244,7 +257,7 @@ const Home = () => {
         <div class="col-sm-3">
           <a href="https://github.com/shelbyandersen" target="blank"
             ><img
-              src="./assets/images/GH-icon.png"
+              src={ghIcon}
               alt="Github icon"
               class="portfolio-img"
           /></a>
@@ -255,7 +268,7 @@ const Home = () => {
             target="blank"
           >
             <img
-              src="./assets/images/LI-icon.png"
+              src={liIcon}
               alt="LinkedIn icon"
               class="portfolio-img"
           /></a>
@@ -263,7 +276,7 @@ const Home = () => {
         <div class="col-sm-3">
           <a href="./assets/sa-resume.pdf" target="blank">
             <img
-              src="./assets/images/resume-icon.png"
+              src={resumeIcon}
               alt="resume icon"
               class="portfolio-img"
           /></a>
@@ -276,7 +289,7 @@ const Home = () => {
         </div>
         <div class="col-sm-6">
           <img
-            src="./assets/images/chs-background.png"
+            src={chsBackground}
             alt="placeholder image"
             class="portfolio-img"
           />
@@ -289,7 +302,7 @@ const Home = () => {
             For the right position, I am willing to relocate or work remote.
           </h4>
           <img
-            src="./assets/images/curved-line-icon.png"
+            src={curvedLine}
             alt="a teal curved line, used to add design detail"
             class="curved-line-img"
           />
